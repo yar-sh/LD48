@@ -481,13 +481,14 @@ ready_to_destroy = false
             <kind>1</kind>
             <string>/// screen setup
 
+    window_set_size(width, height)
+    
 if fullscreen
 {
     window_set_fullscreen(true)
 }
 else
 {
-    window_set_size(width, height)
     window_center()
 }
 
